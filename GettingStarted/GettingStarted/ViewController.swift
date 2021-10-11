@@ -1,0 +1,23 @@
+//
+//  ViewController.swift
+//  GettingStarted
+//
+//  Created by Mehdi S on 9/18/21.
+//
+
+import UIKit
+
+class ViewController: UIViewController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view.
+        var names = ["Tammy", "Cole"]
+        names.removeFirst()
+        names.removeFirst()
+
+    }
+
+
+}
+
